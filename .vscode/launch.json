@@ -11,7 +11,7 @@
             "program": "${workspaceFolder}/app.js"
         },
         {
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "name": "Launch Python Program",
             "program": "${workspaceFolder}/app.py",
