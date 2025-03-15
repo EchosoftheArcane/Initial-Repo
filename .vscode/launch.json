@@ -16,6 +16,13 @@
             "name": "Launch Python Program",
             "program": "${workspaceFolder}/app.py",
             "console": "integratedTerminal"
+        },
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Launch Python File",
+            "program": "${file}",
+            "console": "integratedTerminal"
         }
     ]
 }
