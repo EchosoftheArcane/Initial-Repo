@@ -1,4 +1,3 @@
-
 {
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
@@ -10,6 +9,13 @@
             "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceFolder}/app.js"
+        },
+        {
+            "type": "python",
+            "request": "launch",
+            "name": "Launch Python Program",
+            "program": "${workspaceFolder}/app.py",
+            "console": "integratedTerminal"
         }
     ]
 }
